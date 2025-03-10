@@ -5,7 +5,7 @@ Foodistry is a web application that leverages the power of AI to generate quick 
 ## Live Production
 
 Check out the live application here: https://foodistry.netlify.app <br />
-Current Status: ![Status](https://api.netlify.com/api/v1/badges/6559a415-f2f0-49e7-b87e-e814d8b28416/deploy-status)
+Current Status: <picture>![Status](https://api.netlify.com/api/v1/badges/6559a415-f2f0-49e7-b87e-e814d8b28416/deploy-status)</picture>
 
 <picture>![alt text](https://github.com/sohan-bhat/Foodify/blob/main/screenshots/SplashPage.png)</picture>
 <picture>![alt text](https://github.com/sohan-bhat/Foodify/blob/main/screenshots/IngredientsPage.png)</picture>
