@@ -1,6 +1,5 @@
-# Foodistry
-
-Foodistry is a web application that leverages the power of AI to generate quick and creative recipes based on the ingredients you have at home. Whether you're looking for a last-minute meal or just want to try something new, Foodistry helps you make the most of your pantry with minimal effort.
+# Foodify
+Foodify is a web application that leverages the power of AI to generate quick and creative recipes based on the ingredients you have at home.
 
 ## Live Production
 
