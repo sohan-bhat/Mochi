@@ -66,7 +66,7 @@ const IngredientsList = () => {
 
     return (
         <>
-        <h2 className='ingredients-slogan'>Select the Ingredients you already have, Find Recipes, and Start Cooking Now!</h2>
+        <h2 className='ingredients-slogan'>Select Ingredients, Find Recipes, and Start Cooking Now!</h2>
         <div className='ingredients-container'>
             <div className='pantry-essentials' id='flex-item'>
                 <Accordion defaultExpanded>
