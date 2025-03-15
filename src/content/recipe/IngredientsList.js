@@ -47,7 +47,7 @@ const IngredientsList = () => {
         getGroqChatCompletion(clickState.concat(inputState, mealType)).then((res) => {
             setResponseState(res.choices[0].message.content)
             setLoading(false)
-        })
+        }) 
     }
 
     const handleMealType = (event) => {
@@ -66,7 +66,7 @@ const IngredientsList = () => {
 
     return (
         <>
-        <h2 className='ingredients-slogan'>Select Ingredients, Find Recipes, and Start Cooking Now!</h2>
+        <h2 className='ingredients-slogan'>Want to cook up something? What ingredients do have?</h2>
         <div className='ingredients-container'>
             <div className='pantry-essentials' id='flex-item'>
                 <Accordion defaultExpanded>
