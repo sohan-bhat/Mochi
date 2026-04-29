@@ -1,25 +1,25 @@
 {
-  "short_name": "Foodify",
-  "name": "Foodify: Recipes from what you have",
+  "short_name": "Mochi",
+  "name": "Mochi: Recipes from what you have",
   "icons": [
     {
-      "src": "foodify.png",
+      "src": "mochi.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "foodify.png",
+      "src": "mochi.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "foodify.png",
+      "src": "mochi.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1F4D2C",
+  "theme_color": "#3D8A5F",
   "background_color": "#FAFAF7"
 }

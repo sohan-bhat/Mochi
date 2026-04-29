@@ -32,7 +32,7 @@ const SplashPage = () => {
           position: 'absolute',
           inset: 0,
           background:
-            'radial-gradient(60% 60% at 20% 0%, rgba(31,77,44,0.07) 0%, rgba(31,77,44,0) 70%), radial-gradient(50% 50% at 90% 30%, rgba(184,132,90,0.08) 0%, rgba(184,132,90,0) 70%)',
+            'radial-gradient(60% 60% at 20% 0%, rgba(214,238,177,0.45) 0%, rgba(214,238,177,0) 70%), radial-gradient(50% 50% at 90% 30%, rgba(61,138,95,0.10) 0%, rgba(61,138,95,0) 70%)',
           pointerEvents: 'none',
         }}
       />
@@ -52,7 +52,7 @@ const SplashPage = () => {
           </Typography>
 
           <Typography variant="body1" sx={{ fontSize: '1.125rem', color: 'text.secondary', maxWidth: 580 }}>
-            Foodify takes the ingredients already in your kitchen and suggests recipes you can actually make
+            Mochi takes the ingredients already in your kitchen and suggests recipes you can actually make
             tuned to your meal of choice and any dietary preferences.
           </Typography>
 

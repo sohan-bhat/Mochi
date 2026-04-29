@@ -3,7 +3,7 @@ Mochi is a web application that generates quick and creative recipes based on th
 
 ## Live Production
 
-Check out the live application here: https://foodistry.netlify.app <br />
+Check out the live application here: https://trymochi.netlify.app <br />
 Current Status: <picture>![Status](https://api.netlify.com/api/v1/badges/6559a415-f2f0-49e7-b87e-e814d8b28416/deploy-status)</picture>
 
 <picture>![alt text](https://github.com/sohan-bhat/Mochi/blob/main/screenshots/SplashPage.png)</picture>

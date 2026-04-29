@@ -20,7 +20,7 @@ const Footer = () => {
           spacing={1}
         >
           <Typography variant="body2" color="text.secondary">
-            © {new Date().getFullYear()} Foodify
+            © {new Date().getFullYear()} Mochi
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Always cook with care

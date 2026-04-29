@@ -5,21 +5,21 @@ import Markdown from 'react-markdown';
 
 const RECIPE_SOURCES = {
   primary: {
-    name: 'AllRecipes',
-    url: (q) => `https://www.allrecipes.com/search?q=${encodeURIComponent(q)}`,
+    name: 'BBC Good Food',
+    url: (q) => `https://www.bbcgoodfood.com/search?q=${encodeURIComponent(q)}`,
   },
   alternates: [
-    {
-      name: 'Bon Appétit',
-      url: (q) => `https://www.bonappetit.com/search?q=${encodeURIComponent(q)}`,
-    },
     {
       name: 'Serious Eats',
       url: (q) => `https://www.seriouseats.com/search?q=${encodeURIComponent(q)}`,
     },
     {
-      name: 'Tasty',
-      url: (q) => `https://tasty.co/search?q=${encodeURIComponent(q)}`,
+      name: 'Bon Appétit',
+      url: (q) => `https://www.bonappetit.com/search?q=${encodeURIComponent(q)}`,
+    },
+    {
+      name: 'Simply Recipes',
+      url: (q) => `https://www.simplyrecipes.com/?s=${encodeURIComponent(q)}`,
     },
   ],
 };

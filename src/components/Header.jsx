@@ -16,15 +16,15 @@ const Header = () => {
           >
             <Box
               component="img"
-              src="/foodify.png"
-              alt="Foodify"
-              sx={{ width: 36, height: 36, transform: 'rotate(45deg)' }}
+              src="/mochi.png"
+              alt="Mochi"
+              sx={{ width: 40, height: 40 }}
             />
             <Typography
               variant="h6"
               sx={{ fontFamily: '"Fraunces", serif', fontWeight: 600, letterSpacing: '-0.01em' }}
             >
-              Foodify
+              Mochi
             </Typography>
           </Box>
 

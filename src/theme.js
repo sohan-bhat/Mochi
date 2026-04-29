@@ -1,9 +1,11 @@
 import { createTheme, alpha } from '@mui/material/styles';
 
 const palette = {
-  forest: '#1F4D2C',
-  forestDark: '#143820',
-  forestSoft: '#2F6A3D',
+  sage: '#59b381',
+  sageDark: '#2C6B47',
+  sageSoft: '#7DA88B',
+  mochi: '#D6EEB1',
+  mochiHover: '#C2E193',
   amber: '#B8845A',
   bg: '#FAFAF7',
   paper: '#FFFFFF',
@@ -16,9 +18,9 @@ const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: palette.forest,
-      dark: palette.forestDark,
-      light: palette.forestSoft,
+      main: palette.sage,
+      dark: palette.sageDark,
+      light: palette.mochi,
       contrastText: '#FFFFFF',
     },
     secondary: {
@@ -116,8 +118,14 @@ const theme = createTheme({
           fontSize: '1rem',
         },
         containedPrimary: {
+          backgroundColor: palette.mochi,
+          color: palette.sageDark,
           boxShadow: 'none',
-          '&:hover': { backgroundColor: palette.forestDark, boxShadow: 'none' },
+          '&:hover': { backgroundColor: palette.mochiHover, boxShadow: 'none' },
+          '&.Mui-disabled': {
+            backgroundColor: alpha(palette.mochi, 0.5),
+            color: alpha(palette.sageDark, 0.5),
+          },
         },
       },
     },
@@ -134,15 +142,15 @@ const theme = createTheme({
           color: palette.ink,
           transition: 'all 160ms ease',
           '&:hover': {
-            backgroundColor: alpha(palette.forest, 0.04),
-            borderColor: alpha(palette.forest, 0.3),
+            backgroundColor: alpha(palette.sage, 0.04),
+            borderColor: alpha(palette.sage, 0.3),
           },
           '&.Mui-selected': {
-            backgroundColor: palette.forest,
+            backgroundColor: palette.sage,
             color: '#FFFFFF',
-            borderColor: palette.forest,
+            borderColor: palette.sage,
             '&:hover': {
-              backgroundColor: palette.forestDark,
+              backgroundColor: palette.sageDark,
             },
           },
         },
