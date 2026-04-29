@@ -1,14 +1,14 @@
-# Foodify
-Foodify is a web application that generates quick and creative recipes based on the ingredients you have at home.
+# Mochi
+Mochi is a web application that generates quick and creative recipes based on the ingredients you have at home.
 
 ## Live Production
 
 Check out the live application here: https://foodistry.netlify.app <br />
 Current Status: <picture>![Status](https://api.netlify.com/api/v1/badges/6559a415-f2f0-49e7-b87e-e814d8b28416/deploy-status)</picture>
 
-<picture>![alt text](https://github.com/sohan-bhat/Foodify/blob/main/screenshots/SplashPage.png)</picture>
-<picture>![alt text](https://github.com/sohan-bhat/Foodify/blob/main/screenshots/IngredientsPage.png)</picture>
-<picture>![alt text](https://github.com/sohan-bhat/Foodify/blob/main/screenshots/ResultsPage.png)</picture>
+<picture>![alt text](https://github.com/sohan-bhat/Mochi/blob/main/screenshots/SplashPage.png)</picture>
+<picture>![alt text](https://github.com/sohan-bhat/Mochi/blob/main/screenshots/IngredientsPage.png)</picture>
+<picture>![alt text](https://github.com/sohan-bhat/Mochi/blob/main/screenshots/ResultsPage.png)</picture>
 
 ## Features
 
@@ -18,7 +18,7 @@ Current Status: <picture>![Status](https://api.netlify.com/api/v1/badges/6559a41
 
 ## Local development
 
-Foodify runs on Vite and requires Node.js 20.11+ (use `nvm use` to pick up the version pinned in `.nvmrc`).
+Mochi runs on Vite and requires Node.js 20.11+ (use `nvm use` to pick up the version pinned in `.nvmrc`).
 
 ```bash
 nvm use
