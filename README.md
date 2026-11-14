@@ -31,3 +31,5 @@ Other scripts:
 
 - `npm run build` — production build into `build/`
 - `npm run preview` — preview the production build locally
+
+Built by [Sohan Bhat](https://sohanbhat.me/).

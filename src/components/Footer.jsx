@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Stack } from '@mui/material';
+import { Box, Container, Link, Typography, Stack } from '@mui/material';
 
 const Footer = () => {
   return (
@@ -20,7 +20,10 @@ const Footer = () => {
           spacing={1}
         >
           <Typography variant="body2" color="text.secondary">
-            © {new Date().getFullYear()} Mochi
+            © {new Date().getFullYear()} Mochi. Built by{' '}
+            <Link href="https://sohanbhat.me/" color="inherit" underline="hover">
+              Sohan Bhat
+            </Link>
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Always cook with care
